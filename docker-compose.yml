@@ -18,7 +18,7 @@ services:
     network_mode: bridge
 
   k3s-worker:
-    image: rancher/k3s:v0.8.1
+    image: rancher/k3s:v0.10.2
     container_name: k3s-worker
     tmpfs:
     - /run
